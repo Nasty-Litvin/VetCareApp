@@ -1,0 +1,9 @@
+:root {
+    --font-family: 'Quicksand';
+    --text-color: #707283;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
