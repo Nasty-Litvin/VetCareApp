@@ -1,8 +1,9 @@
+import { ButtonProps } from './types';
 import './style.scss'
 
-const Button = () => {
+const Button = ({text, color}: ButtonProps)  => {
     return (
-        <button className="btn">BUTTON</button>
+        <button className={ color === 'green' ? 'btn btn--green' : 'btn' }>{text}</button>
     );
 }
  
