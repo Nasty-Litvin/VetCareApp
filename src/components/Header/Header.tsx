@@ -1,6 +1,7 @@
 import Button from '../Button/Button';
 import Logo from '../Logo/Logo';
 import Menu from '../Menu/Menu';
+import Banner from '../Banner/Banner';
 
 import './style.scss'
 
@@ -18,6 +19,9 @@ const Header = () => {
                     <div className="header__phone">
                         <Button text="384-129-293-39" />
                     </div>
+                </div>
+                <div className="header__banner">
+                    <Banner />
                 </div>
             </header>
         </div>
