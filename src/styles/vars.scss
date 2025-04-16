@@ -1,9 +1,16 @@
 :root {
     --font-family: 'Quicksand';
     --text-color: #707283;
-    --btn-main: linear-gradient(180deg, #FFA992 0%, #FF7852 65%);
-}
 
+    --btn-main: linear-gradient(180deg, #FFA992 0%, #FF7852 65%);
+    --btn-green: linear-gradient(180deg, #C3E48F 0%, #8EC637 65%);
+    --btn-main-text-color:  #FFFFFF;
+    --btn-red-text-color: #FF7751;
+
+    --title-text-color: #242851;
+
+
+}
 body {
     font-family: var(--font-family);
     color: var(--text-color);
