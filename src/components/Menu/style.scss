@@ -1,3 +1,8 @@
 .menu {
-    background: yellowgreen;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 55px
+    }
 }
