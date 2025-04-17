@@ -1,0 +1,15 @@
+.work {
+    &__wrapper {
+        background: #FFECE4;
+    }
+    &__text {
+        font-family: 'Nunito';
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        color: #FF7751;
+    }
+    &__cards {
+        display: flex;
+    }
+}
