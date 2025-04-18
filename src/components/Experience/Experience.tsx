@@ -26,7 +26,7 @@ const Experience = () => {
                 <div className="experience__title">
                     <Title text={experienceTitle}/>
                 </div>
-                <div>
+                <div className="experience__description">
                     <Description textDescr={experienceDescription}/>
                 </div>
                 <div className="experience__list">
