@@ -4,7 +4,7 @@ import './style.scss'
 
 const Image = ({url}: ImageProps) => {
     return (
-        <img src={url}/>
+        <img className="img" src={url}/>
     );
 }
  
