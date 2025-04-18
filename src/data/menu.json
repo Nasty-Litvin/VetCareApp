@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "Start"
+    },
+    {
+        "id": 2,
+        "text": "Services"
+    },
+    {
+        "id": 3,
+        "text": "About"
+    },
+    {
+        "id": 4,
+        "text": "News"
+    },
+    {
+        "id": 5,
+        "text": "Contact"
+    }
+]

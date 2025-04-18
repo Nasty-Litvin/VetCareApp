@@ -1,0 +1,55 @@
+.work {
+    &__wrapper {
+        background: #FFECE4;
+        padding: 100px;
+        border-radius: 50px;
+    }
+    &__text {
+        font-family: 'Nunito';
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        color: #FF7751;
+    }
+    &__title {
+        padding: 10px 0 60px 0;
+        font-size: 64px;
+        text-align: center;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        
+        .card {
+            &__wrapper {
+                background: #FFFFFF;
+                max-width: 292px;
+                padding: 50px 40px;
+                border-radius: 30px;
+            }
+            &__wrapper:hover {
+                background: linear-gradient(180deg, #FFBBA9 0%, #FF6236 100%);
+            }
+            &__img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__title {
+                font-size: 26px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                margin: 35px 0 20px 0;
+            }
+            &__description {
+                font-size: 18px;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+    }
+}

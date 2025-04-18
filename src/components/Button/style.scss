@@ -1,0 +1,17 @@
+.btn {
+    padding: 16px 35px;
+    background: var(--btn-main);
+    color: var(--btn-main-text-color);
+
+    border-radius: 30px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn--green {
+    background: var(--btn-green);
+}

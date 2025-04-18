@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "img": "/work/1-work.svg",
+        "name": "Pet Grooming",
+        "description": "There are many variatio of passage of Lorem for a Ipsum available",
+        "color": " linear-gradient(180deg, #B8DEFF 0%, #1D97FF 100%)"
+
+    },
+    {
+        "id": 2,
+        "img": "/work/2-work.svg",
+        "name": "Veterinary",
+        "description": "There are many variatio of passage of Lorem for a Ipsum available",
+        "color": "#FFFFFF"
+    },
+    {
+        "id": 3,
+        "img": "/work/3-work.svg",
+        "name": "Dog Setting",
+        "description": "There are many variatio of passage of Lorem for a Ipsum available",
+        "color": "linear-gradient(180deg, #FFE4AA 0%, #FF9C07 100%)"
+
+    },
+    {
+        "id": 4,
+        "img": "/work/4-work.svg",
+        "name": "Healthy Meals",
+        "description": "There are many variatio of passage of Lorem for a Ipsum available",
+        "color": "linear-gradient(180deg, #AFE6EB 0%, #36BECB 100%)"
+    }
+]
+
+
+
