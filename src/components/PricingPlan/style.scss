@@ -1,0 +1,68 @@
+.pricing-plan {
+    &__cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cardPP {
+            &__wrapper {
+                width: 472px;
+                background: #FFFFFF;
+                padding: 60px 120px;
+                border-radius: 20px;
+                font-family: 'Nunito';
+                font-weight: 800;
+                color: #242851;
+                text-align: center;
+                border: 1px solid #FFECE4;
+            }
+            &__wrapper:hover {
+                background: linear-gradient(180deg, #FFA389 0%, #FF6439 100%);
+                color: #FFFFFF;
+                border: 1px solid #FFFFFF;
+                div {
+                    color: #FFFFFF;
+                }
+                .btn {
+                    background: #FFFFFF;
+                    color: #FF7751;
+                }
+            }
+            &__text {
+                font-size: 28px;
+            }
+            &__title {
+                font-size: 50px;
+            }
+            &__list {
+                font-family: 'Quicksand';
+                font-weight: 1;
+                font-size: 20px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #707283;
+            }
+            &__list > div {
+                margin-bottom: 25px;
+            }
+            &__price {
+                font-family: 'Nunito';
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 100%;
+                text-align: center;
+                color: #FF7751;
+                span {
+                    font-size: 20px;
+                }
+            }
+            &__btn {
+                .btn {
+                    border: 1px solid #FFFFFF;
+                }
+            }
+            
+        }
+    }
+}
