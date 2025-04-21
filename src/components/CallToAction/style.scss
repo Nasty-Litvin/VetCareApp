@@ -1,0 +1,57 @@
+.call-to-action {
+    position: relative;
+    width: 100%;
+
+
+    &__wrapper {
+        background: #FFECE4;
+        padding: 100px 0 100px 100px;
+        border-radius: 50px;
+    }
+    &__title {
+        max-width: 654px;
+        font-size: 64px;
+    }
+    &__description {
+        max-width: 654px;
+        margin: 30px 0 50px 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &__img {
+        position: absolute;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &--1 {
+            right: calc(105 / 1490 * 100%);
+            top: calc(54 / 521 * 100%);
+            width: calc(417 / 1490 * 100%);
+            height: calc(417 / 521 * 100%);
+      
+        }
+        &--2 {
+            right: calc(493 / 1490 * 100%);
+            top: calc(250 / 521 * 100%);
+            width: calc(73 / 1490 *100%);
+            height: calc(116 / 521 * 100%);
+
+        }
+        &--3 {
+            right: calc(122 / 1490 * 100%);
+            top: calc(54 / 521 * 100%);
+            width: calc(50 / 1490 * 100%);
+            height: calc(72 / 521 * 100%);
+        }
+        &--4 {
+            right: calc(490 / 1490 * 100%);
+            top: calc(54 / 521 * 100%);
+            width: calc(62 / 1490 * 100%);
+            height: calc(66 / 521 * 100%);
+        }
+        }
+}
+
+
+
