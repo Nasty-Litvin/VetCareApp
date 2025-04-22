@@ -5,13 +5,15 @@ import Banner from '../Banner/Banner';
 
 import './style.scss'
 
+const logoUrl = "/logo.svg"
+
 const Header = () => {
     return (
         <div className="container">
             <header className="header">
                 <div className="header__row">
                     <div className="header__logo">
-                        <Logo />
+                        <Logo url={logoUrl}/>
                     </div>
                     <div className="header__menu">
                         <Menu />
