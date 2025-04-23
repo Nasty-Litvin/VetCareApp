@@ -8,15 +8,13 @@ import './style.scss'
 
 const Main = () => {
     return (
-        <div className="container">
-            <main className="main">
-                <Work />
-                <Experience />
-                <Team />
-                <PricingPlan />
-                <CallToAction />
-            </main>
-        </div>  
+        <main className="main">
+            <Work />
+            <Experience />
+            <Team />
+            <PricingPlan />
+            <CallToAction />
+        </main>  
     );
 }
  
