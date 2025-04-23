@@ -1,12 +1,12 @@
-.work {
+.team {
     &__wrapper {
-        max-width: 1490px;
+        max-width: 1490;
         margin: 0 auto;
         background: #FFECE4;
         padding: 100px;
         border-radius: 50px;
     }
-    &__text {
+    &__text  {
         font-family: 'Nunito';
         font-weight: 800;
         font-size: 20px;
@@ -21,37 +21,38 @@
     &__cards {
         display: flex;
         justify-content: space-between;
-        cursor: pointer;
-        
+
         .card {
             &__wrapper {
+                width: 292px;
                 background: #FFFFFF;
-                max-width: 292px;
-                padding: 50px 40px;
-                border-radius: 30px;
+                border-radius: 146px;
+                padding: 50px 50px 70px 50px;
+                cursor: pointer;
             }
             &__wrapper:hover {
                 background: linear-gradient(180deg, #FFBBA9 0%, #FF6236 100%);
             }
             &__img {
-                width: 100px;
-                height: 100px;
+                width: 192px;
+                height: 192px;
                 border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+           }
             &__title {
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 100%;
                 letter-spacing: 0%;
                 text-align: center;
-                margin: 35px 0 20px 0;
+                margin: 30px 0 7px 0;
             }
             &__description {
+                font-family: 'Quicksand';
+                font-weight: 1;
                 font-size: 18px;
-                line-height: 28px;
+                line-height: 100%;
+                letter-spacing: 0%;
                 text-align: center;
+                color: #FF7751;
             }
         }
     }

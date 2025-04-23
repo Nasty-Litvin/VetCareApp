@@ -5,26 +5,26 @@ import Banner from '../Banner/Banner';
 
 import './style.scss'
 
+const logoUrl = "/logo.svg"
+
 const Header = () => {
     return (
-        <div className="container">
-            <header className="header">
-                <div className="header__row">
-                    <div className="header__logo">
-                        <Logo />
-                    </div>
-                    <div className="header__menu">
-                        <Menu />
-                    </div>
-                    <div className="header__phone">
-                        <Button text="384-129-293-39" />
-                    </div>
+        <header className="header">
+            <div className="header__row">
+                <div className="header__logo">
+                    <Logo url={logoUrl}/>
                 </div>
-                <div className="header__banner">
-                    <Banner />
+                <div className="header__menu">
+                    <Menu />
                 </div>
-            </header>
-        </div>
+                <div className="header__phone">
+                    <Button text="384-129-293-39" />
+                </div>
+            </div>
+            <div className="header__banner">
+                <Banner />
+            </div>
+        </header>
     );
 }
  

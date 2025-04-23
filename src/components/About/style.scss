@@ -1,0 +1,35 @@
+.about {
+    &__logo {
+        width: 130px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    &__description {
+        .description {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    &__form {
+        position: relative;
+        width: 394px;
+        height: 60px;
+        border-radius: 30px;
+        background: #FFFFFF;
+        padding: 17px 30px;
+        box-shadow: 0px 12px 35px 0px #D2C5C040;
+    }
+    &__input {
+        width: 100%;   
+    }
+    .btn {
+        position: absolute;
+        top: calc(5 / 60 * 100%);
+        right: calc(5 / 394 * 100%);
+        padding: 12px 30px;
+        font-size: 18px;
+        height: 50px;
+
+    }
+}

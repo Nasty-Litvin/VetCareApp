@@ -11,7 +11,7 @@ const images = [
     { url: '/banner/4-banner.svg', className: 'banner__img--4' },
     { url: '/banner/5-banner.svg', className: 'banner__img--5' },
 ]
-console.log('images', images)
+
 const Banner = () => {
     let textTitle = "For Your Pet’s Natural Life & Care";
     let textDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
@@ -34,8 +34,8 @@ const Banner = () => {
                         <div 
                             key={index}
                             className={`banner__img ${image.className}`}
-                            style={{background: `url(${image.url})`}}
-                            />
+                            style={{backgroundImage: `url(${image.url})`}}
+                        />
                     ))
                 }
             </div>

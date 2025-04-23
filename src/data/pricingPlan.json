@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "pack": "Regular Pack",
+        "title": "3 Days",
+        "list": ["Pet Shower", "Fitness Checkup", "Pet Grooming", "Hair and Nail Cut", "Control Hair Falling"],
+        "price": 150
+    },
+    {
+        "id": 2,
+        "pack": "Exclusive Pack",
+        "title": "10 Days",
+        "list": ["Pet Shower", "Fitness Checkup", "Pet Grooming", "Hair and Nail Cut", "Control Hair Falling", "Brush & Blow Dry", "Pet Park And Games"],
+        "price": 350
+    },
+    {
+        "id": 3,
+        "pack": "Premium Pack",
+        "title": "30 Days",
+        "list": ["Pet Shower", "Fitness Checkup", "Pet Grooming", "Hair and Nail Cut", "Control Hair Falling"],
+        "price": 550
+    }
+]

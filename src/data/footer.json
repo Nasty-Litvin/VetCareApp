@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Address",
+        "content": ["+23 384 485 29", "vet@shamim.com", "123 king street, Melbrown Victoria 3000, Australia"]
+    },
+    {
+        "id": 2,
+        "title": "Links",
+        "content": ["About Us", "Groomers", "Contact Us", "Privacy Policy", "Tearms"]
+    },
+    {
+        "id": 3,
+        "title": "Opening Hours",
+        "content": ["Monday-Tuesday 09:00-18:00", "Wednesday 09:00-18:00", "Thrusday-Friday 09:00-18:00", "Saturday 10:00-17:00", "Sunday 10:30-16:00"]
+    }
+]

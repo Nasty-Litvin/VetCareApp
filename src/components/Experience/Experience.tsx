@@ -12,10 +12,10 @@ const experienceButton = 'Know More About Us'
 
 const images = [
     {url: '/experience/1-experience.png', className: 'experience__img--1'},
-    {url: '/experience/2-experience.png', className: 'experience__img--2'},
-    {url: '/experience/3-experience.png', className: 'experience__img--3'},
-    {url: '/experience/4-experience.png', className: 'experience__img--4'},
-    {url: '/experience/5-experience.png', className: 'experience__img--5'}
+    {url: '/experience/2-experience.svg', className: 'experience__img--2'},
+    {url: '/experience/3-experience.svg', className: 'experience__img--3'},
+    {url: '/experience/4-experience.svg', className: 'experience__img--4'},
+    {url: '/experience/5-experience.svg', className: 'experience__img--5'}
 ]
 
 const Experience = () => {
@@ -26,7 +26,7 @@ const Experience = () => {
                 <div className="experience__title">
                     <Title text={experienceTitle}/>
                 </div>
-                <div>
+                <div className="experience__description">
                     <Description textDescr={experienceDescription}/>
                 </div>
                 <div className="experience__list">
@@ -41,15 +41,17 @@ const Experience = () => {
                     <Button text={experienceButton}/>
                 </div>
                 <div className="experience__imgs">
-                    {images.map((image, index) => (
-                        <div 
-                            key={index}
-                            className={`experience__img ${image.className}`}
-                            style={{background: `url${image.url}`}}
-                        />
-                    ))}
+                    {
+                        images.map((image, index) => (
+                            <div 
+                                key={index}
+                                className={`experience__img ${image.className}`}
+                                style={{backgroundImage: `url(${image.url})`}} 
+                            />
+                        ))
+                    }
                 </div>
-            </div>
+            </div> 
         </div>
     );
 }
