@@ -21,6 +21,7 @@
     &__cards {
         display: flex;
         justify-content: space-between;
+        cursor: pointer;
         
         .card {
             &__wrapper {
