@@ -1,1 +1,38 @@
+.footer {
+    &__wrapper {
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+    &__block-1 {
+        display: flex;
+        justify-content: space-between;
 
+        .about {
+            max-width: 410px;
+        }
+        .chapter {
+            display: flex;
+            justify-content: space-between;
+            width: 780px;
+
+            .chapter-section:nth-child(1) {
+                max-width: 212px;
+            } 
+            .chapter-section:nth-child(2) {
+                max-width: 118px;
+            }  
+            .chapter-section:nth-child(3) {
+                max-width: 247px;
+            }   
+        }
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+        & a {
+            font-size: 18px;
+            color: #707283;
+        }
+    }  
+}

@@ -1,24 +1,32 @@
 import About from '../About/About';
-import Address from '../Address/Address';
-import Links from '../Links/Links';
-import OpeningHours from '../OpeningHours/OpeningHours';
 
+
+import footerData from '../../data/footer.json'
 import './style.scss'
+import ChapterSection from '../ChapterSection/ChapterSection';
 
 
 
 const Footer = () => {
     return (
-        <div className="container">
-            <footer className="footer">
-                <div className="footer__about">
+        <footer className="footer">
+            <div className="footer__wrapper">
+                <div className="footer__block-1">
                     <About />
-                    <Address />
-                    <Links />
-                    <OpeningHours />
+                    <div className="chapter">
+                        {footerData.map((item) => (
+                            <ChapterSection
+                                title={item.title}
+                                dataChapter={item.content}
+                            />
+                        ))}
+                    </div>
                 </div>
-            </footer>
-        </div>
+                <div className="footer__link">
+                    <a href="#">© Copyright 2021 - 2024 | Pet Theme by Md Shamim Hossain | All Rights Reserved</a>
+                </div>
+            </div>
+        </footer>
     );
 }
  
